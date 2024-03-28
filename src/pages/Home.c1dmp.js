@@ -8,4 +8,8 @@ $w.onReady(function () {
       $w("#text5").text = "oh look, I changed!";
     });
   }); // txtHeading OnClick function Ends
+
+  $w("#txtHeading").onMouseIn(() => {
+    "Click to change the text to something cool!";
+  });
 }); //Onready Closed
