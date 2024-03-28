@@ -5,8 +5,7 @@ $w.onReady(function () {
     $w("#text5").text = "look, I am also a different text from another branch";
   }); // txtHeading OnClick function Ends
 
-  $w("#txtHeading").onHover(() => {
-    "Click to change the text to something cool!"
-  })
-
+  $w("#txtHeading").onMouseIn(() => {
+    "Click to change the text to something cool!";
+  });
 }); //Onready Closed
